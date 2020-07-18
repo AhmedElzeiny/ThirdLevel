@@ -18,6 +18,7 @@ namespace Gamekit3D
         float m_StartTime;
         float m_EndTime;
 
+
         const string k_CutoffName = "_Cutoff";
 
         void Awake()
