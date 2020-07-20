@@ -142,7 +142,6 @@ Transform:
   m_Children:
   - {fileID: 2875764379888508230}
   - {fileID: 2879704803019079754}
-  - {fileID: 2879803370279097516}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 10.866, z: 0}
@@ -160,7 +159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boxNumber: 0
   intactBox: {fileID: 2873785156765235142}
-  shatteredBox: {fileID: 2873902587879854202}
+  shatteredBox: {fileID: 5221670283525766170, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
+    type: 3}
 --- !u!65 &1014022856394264579
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -332,89 +332,3 @@ MonoBehaviour:
   overrides: []
   playing: 0
   canPlay: 0
---- !u!1001 &8040401258934414432
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2875743736119238680}
-    m_Modifications:
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5221670283525766170, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: m_Name
-      value: DestructibleBoxBreak
-      objectReference: {fileID: 0}
-    - target: {fileID: 5389992020641748678, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-        type: 3}
-      propertyPath: CollisionModule.plane0
-      value: 
-      objectReference: {fileID: 2875743736119238680}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ae6a22952b75a6b438dc4d6be9dfe17e, type: 3}
---- !u!1 &2873902587879854202 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5221670283525766170, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8040401258934414432}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2879803370279097516 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5215770557640276172, guid: ae6a22952b75a6b438dc4d6be9dfe17e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8040401258934414432}
-  m_PrefabAsset: {fileID: 0}
